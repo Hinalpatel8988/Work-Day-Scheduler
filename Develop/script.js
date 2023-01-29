@@ -25,6 +25,13 @@ if (+hour.eq(i).attr("data-index") === +today.format("H")) {
 }
 }
 
+$(".btn").click(function (event) {
+  event.preventDefault();
+  var value = $(this).siblings(".description").val();
+  var hour = $(this).parent().attr("id");
+  localStorage.setItem(hour, value);
+});
+
 
 
 
