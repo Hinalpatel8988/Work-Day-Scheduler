@@ -2,7 +2,7 @@
 
 # Deployed Application and Screenshots
 Link to the deployed application
-Link: https://garrettchaney.github.io/superhero-smackdown/
+Link: 
 
 # Screenshot
 
