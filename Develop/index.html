@@ -28,87 +28,85 @@
     <header class="p-5 mb-4" style="background-color: #afd7acd6;">
       <h1 class="display-3 text-center">Work Day Scheduler</h1>
       <p class="lead text-center">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p id="currentDay" class="lead text-center"></p>
     </header>
 
     <div class="container" style="background-color: aliceblue;">
-      <div class="row-time-block">
         <div id="hour8" class="row time-block">
-          <div class="text-center col-md-1 hour py-3">8 AM</div>
-          <textarea class="col-md-10 description"></textarea>
+          <div class="08 text-center col-md-1 hour py-3"data-index = "8">8 AM</div>
+          <textarea class="col-md-10 description" data-index = "0"></textarea>
           <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
            
-      <div class="row-time-block">
-        <div id="hour8" class="row time-block">
-          <div class="text-center col-md-1 hour py-3">9 AM</div>
-          <textarea class="col-md-10 description"></textarea>
+        <div id="hour9" class="row time-block">
+          <div class="09 text-center col-md-1 hour py-3" data-index = "9">9 AM</div>
+          <textarea class="col-md-10 description" data-index = "1"></textarea>
           <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
-      <div class="row-time-block">
-        <div id="hour8" class="row time-block">
-          <div class="text-center col-md-1 hour py-3">10 AM</div>
-          <textarea class="col-md-10 description"></textarea>
+        <div id="hour10" class="row time-block">
+          <div class="10 text-center col-md-1 hour py-3" data-index = "10">10 AM</div>
+          <textarea class="col-md-10 description" data-index = "2"></textarea>
           <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
-      <div class="row-time-block">
-        <div id="hour8" class="row time-block">
-          <div class="text-center col-md-1 hour py-3">11 AM</div>
-          <textarea class="col-md-10 description"></textarea>
+        <div id="hour11" class="row time-block">
+          <div class="11 text-center col-md-1 hour py-3" data-index = "11">11 AM</div>
+          <textarea class="col-md-10 description" data-index = "3"></textarea>
           <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
-      <div class="row-time-block">
-        <div id="hour8" class="row time-block">
-          <div class="text-center col-md-1 hour py-3">12 PM</div>
-          <textarea class="col-md-10 description"></textarea>
+        <div id="hour12" class="row time-block">
+          <div class="12 text-center col-md-1 hour py-3" data-index = "12">12 PM</div>
+          <textarea class="col-md-10 description" data-index = "4"></textarea>
           <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
-      <div class="row-time-block">
-        <div id="hour8" class="row time-block">
-          <div class="text-center col-md-1 hour py-3">1 PM</div>
-          <textarea class="col-md-10 description"></textarea>
+        <div id="hour1" class="row time-block">
+          <div class="1 text-center col-md-1 hour py-3" data-index = "13">1 PM</div>
+          <textarea class="col-md-10 description" data-index = "5"></textarea>
           <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
-      <div class="row-time-block">
-        <div id="hour8" class="row time-block">
-          <div class="text-center col-md-1 hour py-3">2 PM</div>
-          <textarea class="col-md-10 description"></textarea>
+        <div id="hour2" class="row time-block">
+          <div class="2 text-center col-md-1 hour py-3"data-index = "14">2 PM</div>
+          <textarea class="col-md-10 description" data-index = "6"></textarea>
           <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
-      <div class="row-time-block">
-        <div id="hour8" class="row time-block">
-          <div class="text-center col-md-1 hour py-3">3 PM</div>
-          <textarea class="col-md-10 description"></textarea>
+        <div id="hour3" class="row time-block">
+          <div class="text-center col-md-1 hour py-3"data-index = "15">3 PM</div>
+          <textarea class="3 col-md-10 description" data-index = "7"></textarea>
           <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
-      <div class="row-time-block">
-        <div id="hour8" class="row time-block">
-          <div class="text-center col-md-1 hour py-3">4 PM</div>
-          <textarea class="col-md-10 description"></textarea>
+        <div id="hour4" class="row time-block">
+          <div class="text-center col-md-1 hour py-3"data-index = "16">4 PM</div>
+          <textarea class="4 col-md-10 description" data-index = "8"></textarea>
           <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
 
-      <div class="row-time-block">
-        <div id="hour8" class="row time-block">
-          <div class="text-center col-md-1 hour py-3">5 PM</div>
-          <textarea class="col-md-10 description"></textarea>
+        <div id="hour5" class="row time-block">
+          <div class="text-center col-md-1 hour py-3"data-index = "17">5 PM</div>
+          <textarea class="5 col-md-10 description" data-index = "9"></textarea>
           <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
       </div>
+
+      <div id="hour5" class="row time-block">
+        <div class="text-center col-md-1 hour py-3"data-index = "18">6 PM</div>
+        <textarea class="5 col-md-10 description" data-index = "10"></textarea>
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+    </div>
 
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
     integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
     crossorigin="anonymous"></script>
 
-    <script src="script.js"></script>
+    <script src="C:\Users\User\Desktop\Work-Day-Scheduler\Develop\script.js"></script>
   </body>
 </html>
